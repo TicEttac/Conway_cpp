@@ -7,9 +7,9 @@ NAME = conway
 
 CC = g++
 
-FLAGS = -std=c++17 -g3 -fsanitize=address
+FLAGS = -std=c++17 -g3 -fsanitize=address -ggdb
 
-RM = rm
+RM = rm -rf
 
 SRC = $(addprefix srcs/, $(FILES))
 
